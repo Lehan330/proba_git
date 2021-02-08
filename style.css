@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+blockquote {
+  text-align: right;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+}
+p {
+  text-indent: 30px;
+  white-space: wrap;
+  word-spacing: unset;
+  opacity: 0.33;
+}
+.blue {
+  color: blue;
+  
+}
+.red {
+  color: red;
+}
+.title {
+  color: blue;
+  font-size: 46px;
+  font-style: italic;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 0 3px 3px red;
+}
+.parent {
+background-color: red;
+}
+.child {
+background-color: blue;
+}
+.parent,
+.child {
+  width: 50vw;
+}
+.backgroundkitten {
+  background-color: rgba(0, 255, 255, .5) !important;
+  background-image: url(a6bd9504c3c282a19c108276797b5e03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
